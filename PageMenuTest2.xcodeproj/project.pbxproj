@@ -7,14 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A01C76021086D1B00369674 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A01C75F21086D1B00369674 /* DLRadioButton.m */; };
+		0A01C7632108711400369674 /* RadioButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A01C7622108711400369674 /* RadioButtonsViewController.swift */; };
+		0A01C7652108751E00369674 /* FilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A01C7642108751E00369674 /* FilterView.xib */; };
+		0A01C767210875D300369674 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A01C766210875D300369674 /* FilterView.swift */; };
+		0A01C76A21096A6900369674 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A01C76921096A6900369674 /* PickerView.swift */; };
+		0A01C76E2109CA1000369674 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A01C76D2109CA1000369674 /* Picker.swift */; };
+		0A01C7702110471E00369674 /* FilterTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A01C76F2110471E00369674 /* FilterTableViewController.xib */; };
+		0A01C77221104A5200369674 /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A01C77121104A5200369674 /* FilterTableViewController.swift */; };
+		0A01C7742110609E00369674 /* FilterTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A01C7732110609E00369674 /* FilterTableView.swift */; };
+		0A01C776211060E600369674 /* FilterTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A01C775211060E600369674 /* FilterTableView.xib */; };
+		0A01C7782110635900369674 /* FilterSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A01C7772110635900369674 /* FilterSection.swift */; };
 		0AA1803A20F6FA9A00097E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1803920F6FA9A00097E25 /* AppDelegate.swift */; };
 		0AA1803C20F6FA9A00097E25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1803B20F6FA9A00097E25 /* ViewController.swift */; };
 		0AA1803F20F6FA9A00097E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA1803D20F6FA9A00097E25 /* Main.storyboard */; };
 		0AA1804120F6FA9B00097E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA1804020F6FA9B00097E25 /* Assets.xcassets */; };
 		0AA1804420F6FA9B00097E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA1804220F6FA9B00097E25 /* LaunchScreen.storyboard */; };
+		0AA1804C20F7291300097E25 /* ExpenditureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1804B20F7291300097E25 /* ExpenditureViewController.swift */; };
+		0AE6D53820F8954700E068A7 /* PageMenuDemoStoryboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE6D53720F8954700E068A7 /* PageMenuDemoStoryboard */; };
+		0AE6D54820FF21E600E068A7 /* PrizeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6D54320FF21E500E068A7 /* PrizeListViewController.swift */; };
+		0AE6D54E2100416400E068A7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6D54D2100416400E068A7 /* HomeViewController.swift */; };
+		0AE6D55021004F4A00E068A7 /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6D54F21004F4A00E068A7 /* ExpensesViewController.swift */; };
+		0AE6D5522100815100E068A7 /* ExpenditurePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE6D5512100815000E068A7 /* ExpenditurePage.xib */; };
+		0AE6D5542100819700E068A7 /* ExpenditurePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6D5532100819700E068A7 /* ExpenditurePage.swift */; };
+		0AE6D55B2101C4F000E068A7 /* MovieSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6D55A2101C4F000E068A7 /* MovieSection.swift */; };
+		0AE6D55D2101D39000E068A7 /* MovieTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE6D55C2101D39000E068A7 /* MovieTableView.xib */; };
+		0AE6D56B2101DB8100E068A7 /* MovieTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6D56A2101DB8100E068A7 /* MovieTableView.swift */; };
+		0AE6D56D2105BCA200E068A7 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6D56C2105BCA200E068A7 /* MovieTableViewController.swift */; };
+		5E574DCE256D3DC25F2EADB9 /* Pods_PageMenuTest2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A30F557B6AC3777F099F292 /* Pods_PageMenuTest2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A01C75D21086D1A00369674 /* PageMenuTest2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PageMenuTest2-Bridging-Header.h"; sourceTree = "<group>"; };
+		0A01C75E21086D1B00369674 /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		0A01C75F21086D1B00369674 /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
+		0A01C7622108711400369674 /* RadioButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonsViewController.swift; sourceTree = "<group>"; };
+		0A01C7642108751E00369674 /* FilterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterView.xib; sourceTree = "<group>"; };
+		0A01C766210875D300369674 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		0A01C76921096A6900369674 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		0A01C76D2109CA1000369674 /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
+		0A01C76F2110471E00369674 /* FilterTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterTableViewController.xib; sourceTree = "<group>"; };
+		0A01C77121104A5200369674 /* FilterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
+		0A01C7732110609E00369674 /* FilterTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableView.swift; sourceTree = "<group>"; };
+		0A01C775211060E600369674 /* FilterTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterTableView.xib; sourceTree = "<group>"; };
+		0A01C7772110635900369674 /* FilterSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSection.swift; sourceTree = "<group>"; };
 		0AA1803620F6FA9A00097E25 /* PageMenuTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageMenuTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA1803920F6FA9A00097E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AA1803B20F6FA9A00097E25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +58,20 @@
 		0AA1804020F6FA9B00097E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AA1804320F6FA9B00097E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AA1804520F6FA9B00097E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA1804B20F7291300097E25 /* ExpenditureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenditureViewController.swift; sourceTree = "<group>"; };
+		0AE6D53720F8954700E068A7 /* PageMenuDemoStoryboard */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PageMenuDemoStoryboard; sourceTree = "<group>"; };
+		0AE6D54320FF21E500E068A7 /* PrizeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrizeListViewController.swift; sourceTree = "<group>"; };
+		0AE6D54D2100416400E068A7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0AE6D54F21004F4A00E068A7 /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		0AE6D5512100815000E068A7 /* ExpenditurePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpenditurePage.xib; sourceTree = "<group>"; };
+		0AE6D5532100819700E068A7 /* ExpenditurePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenditurePage.swift; sourceTree = "<group>"; };
+		0AE6D55A2101C4F000E068A7 /* MovieSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSection.swift; sourceTree = "<group>"; };
+		0AE6D55C2101D39000E068A7 /* MovieTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableView.xib; sourceTree = "<group>"; };
+		0AE6D56A2101DB8100E068A7 /* MovieTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableView.swift; sourceTree = "<group>"; };
+		0AE6D56C2105BCA200E068A7 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		5F8446E13EFD67B4122F041E /* Pods-PageMenuTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageMenuTest2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PageMenuTest2/Pods-PageMenuTest2.debug.xcconfig"; sourceTree = "<group>"; };
+		7A30F557B6AC3777F099F292 /* Pods_PageMenuTest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageMenuTest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DDBF0FA56DAB5F6442F1B4 /* Pods-PageMenuTest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageMenuTest2.release.xcconfig"; path = "Pods/Target Support Files/Pods-PageMenuTest2/Pods-PageMenuTest2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +79,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E574DCE256D3DC25F2EADB9 /* Pods_PageMenuTest2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A01C76121086D9C00369674 /* RadioButtons */ = {
+			isa = PBXGroup;
+			children = (
+				0A01C75E21086D1B00369674 /* DLRadioButton.h */,
+				0A01C75F21086D1B00369674 /* DLRadioButton.m */,
+				0A01C7622108711400369674 /* RadioButtonsViewController.swift */,
+			);
+			path = RadioButtons;
+			sourceTree = "<group>";
+		};
+		0A01C7682108771500369674 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				0A01C76921096A6900369674 /* PickerView.swift */,
+				0A01C76D2109CA1000369674 /* Picker.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
 		0AA1802D20F6FA9A00097E25 = {
 			isa = PBXGroup;
 			children = (
 				0AA1803820F6FA9A00097E25 /* PageMenuTest2 */,
 				0AA1803720F6FA9A00097E25 /* Products */,
+				F28F1DF918FC7F973DDD348D /* Pods */,
+				90E6C8B9E669AD41D3862DDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +126,60 @@
 		0AA1803820F6FA9A00097E25 /* PageMenuTest2 */ = {
 			isa = PBXGroup;
 			children = (
+				0AE6D54D2100416400E068A7 /* HomeViewController.swift */,
+				0AE6D54320FF21E500E068A7 /* PrizeListViewController.swift */,
+				0AE6D54F21004F4A00E068A7 /* ExpensesViewController.swift */,
+				0A01C76121086D9C00369674 /* RadioButtons */,
+				0A01C7682108771500369674 /* Picker */,
+				0AE6D5572101C49600E068A7 /* TableView */,
 				0AA1803920F6FA9A00097E25 /* AppDelegate.swift */,
 				0AA1803B20F6FA9A00097E25 /* ViewController.swift */,
 				0AA1803D20F6FA9A00097E25 /* Main.storyboard */,
+				0AE6D5512100815000E068A7 /* ExpenditurePage.xib */,
+				0AE6D5532100819700E068A7 /* ExpenditurePage.swift */,
+				0AA1804B20F7291300097E25 /* ExpenditureViewController.swift */,
 				0AA1804020F6FA9B00097E25 /* Assets.xcassets */,
 				0AA1804220F6FA9B00097E25 /* LaunchScreen.storyboard */,
 				0AA1804520F6FA9B00097E25 /* Info.plist */,
+				0AE6D53720F8954700E068A7 /* PageMenuDemoStoryboard */,
+				0A01C75D21086D1A00369674 /* PageMenuTest2-Bridging-Header.h */,
 			);
 			path = PageMenuTest2;
+			sourceTree = "<group>";
+		};
+		0AE6D5572101C49600E068A7 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				0AE6D55C2101D39000E068A7 /* MovieTableView.xib */,
+				0AE6D56A2101DB8100E068A7 /* MovieTableView.swift */,
+				0AE6D55A2101C4F000E068A7 /* MovieSection.swift */,
+				0AE6D56C2105BCA200E068A7 /* MovieTableViewController.swift */,
+				0A01C7642108751E00369674 /* FilterView.xib */,
+				0A01C766210875D300369674 /* FilterView.swift */,
+				0A01C76F2110471E00369674 /* FilterTableViewController.xib */,
+				0A01C77121104A5200369674 /* FilterTableViewController.swift */,
+				0A01C775211060E600369674 /* FilterTableView.xib */,
+				0A01C7732110609E00369674 /* FilterTableView.swift */,
+				0A01C7772110635900369674 /* FilterSection.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		90E6C8B9E669AD41D3862DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A30F557B6AC3777F099F292 /* Pods_PageMenuTest2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F28F1DF918FC7F973DDD348D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F8446E13EFD67B4122F041E /* Pods-PageMenuTest2.debug.xcconfig */,
+				87DDBF0FA56DAB5F6442F1B4 /* Pods-PageMenuTest2.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AA1804820F6FA9B00097E25 /* Build configuration list for PBXNativeTarget "PageMenuTest2" */;
 			buildPhases = (
+				3C0F9F008E7686A79B93AFA6 /* [CP] Check Pods Manifest.lock */,
 				0AA1803220F6FA9A00097E25 /* Sources */,
 				0AA1803320F6FA9A00097E25 /* Frameworks */,
 				0AA1803420F6FA9A00097E25 /* Resources */,
+				727CC03D5883E38DED0BF49E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +216,7 @@
 				TargetAttributes = {
 					0AA1803520F6FA9A00097E25 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -122,21 +243,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE6D55D2101D39000E068A7 /* MovieTableView.xib in Resources */,
+				0A01C7702110471E00369674 /* FilterTableViewController.xib in Resources */,
 				0AA1804420F6FA9B00097E25 /* LaunchScreen.storyboard in Resources */,
 				0AA1804120F6FA9B00097E25 /* Assets.xcassets in Resources */,
+				0A01C776211060E600369674 /* FilterTableView.xib in Resources */,
+				0A01C7652108751E00369674 /* FilterView.xib in Resources */,
+				0AE6D5522100815100E068A7 /* ExpenditurePage.xib in Resources */,
+				0AE6D53820F8954700E068A7 /* PageMenuDemoStoryboard in Resources */,
 				0AA1803F20F6FA9A00097E25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C0F9F008E7686A79B93AFA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PageMenuTest2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		727CC03D5883E38DED0BF49E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PageMenuTest2/Pods-PageMenuTest2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PageMenu/PageMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PageMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PageMenuTest2/Pods-PageMenuTest2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0AA1803220F6FA9A00097E25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A01C767210875D300369674 /* FilterView.swift in Sources */,
+				0AE6D56D2105BCA200E068A7 /* MovieTableViewController.swift in Sources */,
+				0AE6D55B2101C4F000E068A7 /* MovieSection.swift in Sources */,
+				0AE6D56B2101DB8100E068A7 /* MovieTableView.swift in Sources */,
+				0AE6D5542100819700E068A7 /* ExpenditurePage.swift in Sources */,
+				0A01C7632108711400369674 /* RadioButtonsViewController.swift in Sources */,
+				0AE6D54E2100416400E068A7 /* HomeViewController.swift in Sources */,
+				0AE6D54820FF21E600E068A7 /* PrizeListViewController.swift in Sources */,
 				0AA1803C20F6FA9A00097E25 /* ViewController.swift in Sources */,
+				0A01C77221104A5200369674 /* FilterTableViewController.swift in Sources */,
+				0A01C76E2109CA1000369674 /* Picker.swift in Sources */,
+				0A01C7782110635900369674 /* FilterSection.swift in Sources */,
 				0AA1803A20F6FA9A00097E25 /* AppDelegate.swift in Sources */,
+				0A01C76021086D1B00369674 /* DLRadioButton.m in Sources */,
+				0A01C7742110609E00369674 /* FilterTableView.swift in Sources */,
+				0AA1804C20F7291300097E25 /* ExpenditureViewController.swift in Sources */,
+				0A01C76A21096A6900369674 /* PickerView.swift in Sources */,
+				0AE6D55021004F4A00E068A7 /* ExpensesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,36 +462,45 @@
 		};
 		0AA1804920F6FA9B00097E25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8446E13EFD67B4122F041E /* Pods-PageMenuTest2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GR89SBB45;
 				INFOPLIST_FILE = PageMenuTest2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emylkhairuddin.PageMenuTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "PageMenuTest2/PageMenuTest2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		0AA1804A20F6FA9B00097E25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DDBF0FA56DAB5F6442F1B4 /* Pods-PageMenuTest2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GR89SBB45;
 				INFOPLIST_FILE = PageMenuTest2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emylkhairuddin.PageMenuTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "PageMenuTest2/PageMenuTest2-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

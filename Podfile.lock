@@ -1,0 +1,20 @@
+PODS:
+  - PageMenu (2.0.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - PageMenu
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PageMenu
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  PageMenu: 9c38fd7e0d9ef4b1408320f55bb907bbc0e538dc
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: b04928da407d144587ffcbd9da80638bb65fa9c7
+
+COCOAPODS: 1.5.3
