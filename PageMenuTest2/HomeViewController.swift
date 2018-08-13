@@ -6,10 +6,6 @@
 //  Copyright © 2018 Emyl Khairuddin. All rights reserved.
 //
 
-
-//commit testing number 3
-
-
 import UIKit
 import Foundation
 import PageMenu
